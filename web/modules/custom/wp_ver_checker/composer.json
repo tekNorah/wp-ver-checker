@@ -1,0 +1,20 @@
+{
+    "name": "wp_ver_checker",
+    "type": "drupal-module",
+    "description": "Checks and reports on list of WordPress websites for version information",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/tekNorah/wp-ver-checker",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name" : "Shannon Medlin",
+            "email" : "smedlin@tekAura.com",
+            "homepage" : "https://www.tekAura.com",
+            "role" : "Developer"
+        }    ],
+    "support": {
+        "issues": "https://github.com/tekNorah/wp-ver-checker/issues",
+        "source": "https://github.com/tekNorah/wp-ver-checker",
+    },
+}

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains wp_ver_checker.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function wp_ver_checker_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the wp_ver_checker module.
+    case 'help.page.wp_ver_checker':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Checks and reports on list of WordPress websites for version information') . '</p>';
+      return $output;
+
+    default:
+  }
+}
