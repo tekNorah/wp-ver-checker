@@ -3,3 +3,5 @@ type: module
 description: 'Checks and reports on list of WordPress websites for version information'
 core: 8.x
 package: 'Custom'
+dependencies:
+  - drupal:node
